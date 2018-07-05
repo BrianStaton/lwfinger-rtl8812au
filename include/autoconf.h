@@ -29,7 +29,7 @@
 
 #define PLATFORM_LINUX	1
 
-#define CONFIG_IOCTL_CFG80211
+// #define CONFIG_IOCTL_CFG80211 // !bls commented out to prevent Unknown symbol in module error when insmoding
 
 #ifdef CONFIG_IOCTL_CFG80211
 	#define CONFIG_CFG80211_FORCE_COMPATIBLE_2_6_37_UNDER
